@@ -7,12 +7,11 @@
 }
 
 :root {
-    --color-paars: #5722CD;
-    --color-blue: #4845E4;
-    --color-roze: #ED4385;
-    --color-white: #0C0C0C;
-    --color-lichtpaars: #F2F0FF;
-    --licht-grijs: #F3F6F9;
+    --color-paars: #5722cd;
+    --color-blue: #4b49e8;
+    --color-roze: #ed4385;
+    --color-zwaart: #0c0c0c;
+    --licht-grijs: #f2f0ff;
     --grijs: #7A7A7A;
 }
 
@@ -36,6 +35,27 @@
 /* ------------------------------- 2. Typography ----------------------------------- */
 * {
     font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,.header-container2-inner {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h2,nav {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: medium;
+
+    color: var(--licht-grijs);
+}
+
+.header-container2-inner span {
+    color: var(--color-zwaart);
     font-weight: 400;
     font-style: normal;
 }
@@ -164,6 +184,54 @@
 
 
 /* ------------------------------- 3. Layout --------------------------------------- */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section {
+    border: darkred solid 2px;
+    background-color: darkred;
+    gap: 20px;
+}
+
+.Work {
+    border: yellow solid 2px;
+    background-color: yellow;
+    gap: 20px;
+}
+
+.services {
+    border: green solid 2px;
+    background-color: green;
+    gap: 20px;
+
+}
+
+.form {
+    border: purple solid 2px;
+    background-color: purple;
+    gap: 20px;
+
+}
+
+div {
+    border: #0C0C0C solid 2px;
+}
+
+footer {
+    border: blue solid 2px;
+    background-color: blue;
+    gap: 20px;
+}
 
 /* --------------- 3.1 Reusables ----------------------- */
 
@@ -173,6 +241,122 @@
 
 /* --------------- 4.1 Header ------------------------- */
 
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 900px;
+    background-color: var(--color-paars);
+}
+
+nav {
+    height: 4rem;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.nav-container {
+    width: 50%;
+}
+nav ul {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-container1{
+    flex-basis: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: transparent;
+}
+
+.header-container1-inner {
+    width: 600px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    color: var(--licht-grijs);
+}
+
+.btn-header {
+    background-color: var(--color-roze);
+    color: var(--licht-grijs);
+    height: 3rem;
+    width: 15rem;
+    border: none;
+
+    border-radius: 30px;
+    box-shadow: 0 4px 10px var(--color-paars);
+}
 /* --------------- 4.2 Introduction ------------------- */
+
+
+.header-container2 {
+    flex-basis: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: var(--licht-grijs);
+}
+
+.header-container2-inner {
+    width: 600px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    color: var(--color-paars);
+}
+
+/* --------------- 4.3 Main ------------------- */
+
+
+/* --------------- 4.3 Section work ------------------- */
+.work {
+    display: flex;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+}
+
+.work-container div {
+    display: flex;
+
+    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
