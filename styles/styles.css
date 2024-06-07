@@ -12,6 +12,8 @@
     --color-roze: #ED4385;
     --color-white: #0C0C0C;
     --color-lichtpaars: #F2F0FF;
+    --licht-grijs: #F3F6F9;
+    --grijs: #7A7A7A;
 }
 
 
@@ -32,6 +34,12 @@
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
 /* ------------------------------- 2. Typography ----------------------------------- */
+* {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
