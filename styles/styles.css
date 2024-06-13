@@ -199,7 +199,7 @@ body {
 
 section {
     border: darkred solid 2px;
-    background-color: darkred;
+    /*background-color: darkred;*/
     gap: 20px;
 }
 
@@ -354,9 +354,38 @@ nav ul {
 .work-container div {
     display: flex;
 
-    flex-basis: 300px;
+    flex-basis: 350px;
     flex-shrink: 1;
     flex-grow: 1;
+}
+
+.work-container-inner {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.work-inner-container-text {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+
+    background-color: var(--color-paars);
+}
+
+.work-container img {
+    max-width: 100%;
 }
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
