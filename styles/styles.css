@@ -69,134 +69,11 @@ h2,nav {
     color: var(--grijs);
 }
 
-/*Merriweather styles*/
-.merriweather-light {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.merriweather-light-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.merriweather-bold-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.merriweather-black-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
-/*Roboto styles*/
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 body {
     display: flex;
     flex-direction: column;
-    /*gap: 50px;*/
 }
 
 
@@ -207,9 +84,6 @@ body {
 }
 
 section {
-    /*border: darkred solid 2px;*/
-    /*background-color: darkred;*/
-    /*gap: 20px;*/
 }
 
 .Work {
@@ -219,22 +93,14 @@ section {
 }
 
 .services {
-    /*border: green solid 2px;*/
-    /*background-color: green;*/
-    /*gap: 20px;*/
-
 }
 
 .form {
-    /*border: purple solid 2px;*/
     background-color: var(--color-paars);
     gap: 20px;
 
 }
 
-div {
-    /*border: #0C0C0C solid 2px;*/
-}
 
 .form-inner-container {
     color: var(--licht-grijs);
@@ -249,8 +115,6 @@ div {
     font-weight: lighter;
 }
 footer {
-    /*border: blue solid 2px;*/
-    /*background-color: blue;*/
     gap: 20px;
 }
 
@@ -414,25 +278,14 @@ nav ul {
 /* --------------- 4.4 Section Services ------------------- */
 
 .services {
-    /*display: flex;*/
-    /*flex-basis: 780px;*/
-    /*width: 1300px;*/
-
-    /*align-content: center;*/
-    /*justify-self: center;*/
-
 }
 
 .service-container {
     height: 750px;
-    /*flex-basis: 1300px;*/
 
     display: flex;
     align-items: center;
     justify-content: center;
-    /*flex-wrap: wrap;*/
-
-    /*background-color: red;*/
 }
 
 .service-container-inner {
@@ -442,16 +295,6 @@ nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*align-content: center;*/
-    /*justify-self: center;*/
-    /*align-self: center;*/
-    /*gap: 10px;*/
-
-    /*flex-basis: 1200px;*/
-    /*height: 10000px;*/
-
-    /*border: #0c0c0c 2px solid;*/
-    /*background-color: orange;*/
     padding: 10px;
     gap: 30px;
 }
@@ -462,7 +305,6 @@ nav ul {
     height: 300px;
     width: 400px;
 
-    /*background-color: var(--color-blue);*/
     border: var(--color-paars) 2px solid;
 
     padding: 30px;
@@ -477,13 +319,11 @@ nav ul {
 }
 
 .service-container div img {
-    /*height: 50px;*/
     width: 60px;
 }
 
 /* --------------- 4.5 Section form ------------------- */
 .form {
-    /*background-color: transparent;*/
 
 }
 
@@ -497,7 +337,6 @@ nav ul {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    /*border: #0C0C0C solid 10px;*/
 }
 
 .form-container {
@@ -516,8 +355,6 @@ nav ul {
     flex-grow: 0;
     flex-shrink: 0;
     gap: 10px;
-
-    /*border: 10px solid var(--grijs);*/
 }
 
 .btn-footer {
