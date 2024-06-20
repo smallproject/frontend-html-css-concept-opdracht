@@ -368,6 +368,7 @@ nav ul {
 .work-container {
     display: flex;
     flex-direction: column;
+    gap: 50px;
 
     flex-grow: 1;
 }
@@ -381,11 +382,11 @@ nav ul {
 }
 
 .work-container-inner {
+    height: 300px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
     flex-grow: 0;
     flex-shrink: 0;
@@ -396,7 +397,6 @@ nav ul {
 
     display: flex;
     flex-direction: column;
-
     justify-content: space-around;
     flex-grow: 0;
     flex-shrink: 0;
@@ -408,7 +408,7 @@ nav ul {
 .work-container img {
     max-width: 100%;
 
-    box-shadow: 2px 15px 13px var(--grijs);
+    box-shadow: 2px 14px 30px var(--grijs);
 }
 
 /* --------------- 4.4 Section Services ------------------- */
