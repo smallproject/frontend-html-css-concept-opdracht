@@ -400,7 +400,39 @@ nav ul {
     max-width: 100%;
 }
 
-/* --------------- 4.4 Section form ------------------- */
+/* --------------- 4.4 Section Services ------------------- */
+.service-container {
+    height: 800px;
+    /*flex-basis: 800px;*/
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+}
+
+.service-container div {
+    height: 300px;
+    width: 400px;
+
+    background-color: var(--color-blue);
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-container div img {
+    /*height: 50px;*/
+    width: 60px;
+}
+
+/* --------------- 4.5 Section form ------------------- */
 .form {
     /*background-color: transparent;*/
 
@@ -454,7 +486,7 @@ nav ul {
 
   }
 
-/* --------------- 4.5 footer ------------------- */
+/* --------------- 4.6 footer ------------------- */
 footer {
     height: 3rem;
     color: var(--licht-grijs);
