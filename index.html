@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="assets/work-image-03.jpeg" alt="worht images">
+                        <img src="assets/work-image-03.jpeg" alt="work images">
                     </div>
                 </div>
             </div>
@@ -119,11 +119,25 @@
             </div>
         </section>
         <section class="form">
-            <div>
-                Form
-                Let's work together
+            <div class="form-inner-container">
+                <h1 id="form-title">Let's work together </h1>
 
-                Have a question? Need a quote? Let us know!
+                <h3>Have a question? Need a quote? Let us know!</h3>
+
+                <form action="" method="get" class="form-container">
+                    <div class="form-example">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email"  required>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Message" class="form-textarea" required>
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn-header btn-footer">Send</button>
+                </form>
             </div>
         </section>
     </div>
