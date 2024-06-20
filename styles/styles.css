@@ -327,7 +327,7 @@ nav ul {
     border: none;
 
     border-radius: 30px;
-    box-shadow: 0 4px 10px var(--color-paars);
+    box-shadow: 0 4px 10px var(--color-zwaart);
 }
 /* --------------- 4.2 Introduction ------------------- */
 
@@ -407,6 +407,8 @@ nav ul {
 
 .work-container img {
     max-width: 100%;
+
+    box-shadow: 2px 15px 13px var(--grijs);
 }
 
 /* --------------- 4.4 Section Services ------------------- */
@@ -520,6 +522,7 @@ nav ul {
 
 .btn-footer {
     width: 10rem;
+    box-shadow: 2px 2px 13px var(--color-zwaart);
 }
 
 #name {
