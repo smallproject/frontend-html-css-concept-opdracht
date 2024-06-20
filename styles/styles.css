@@ -226,7 +226,7 @@ section {
 }
 
 .form {
-    border: purple solid 2px;
+    /*border: purple solid 2px;*/
     background-color: var(--color-paars);
     gap: 20px;
 
@@ -249,8 +249,8 @@ div {
     font-weight: lighter;
 }
 footer {
-    border: blue solid 2px;
-    background-color: blue;
+    /*border: blue solid 2px;*/
+    /*background-color: blue;*/
     gap: 20px;
 }
 
@@ -497,7 +497,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    border: #0C0C0C solid 10px;
+    /*border: #0C0C0C solid 10px;*/
 }
 
 .form-container {
@@ -517,7 +517,7 @@ nav ul {
     flex-shrink: 0;
     gap: 10px;
 
-    border: 10px solid var(--grijs);
+    /*border: 10px solid var(--grijs);*/
 }
 
 .btn-footer {
